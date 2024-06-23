@@ -53,14 +53,14 @@
 -- Dlya aqreqiruyushix funksiy kak parametr nelzya ispolzovat druquyu qreqiruyusuyu funksiyu
 
 -- Error
-SELECT Topic, MAX(COUNT(*))
-FROM Books_En
-GROUP BY Topic
+--SELECT Topic, MAX(COUNT(*))
+--FROM Books_En
+--GROUP BY Topic
 
-SELECT TOP(1) Topic, COUNT(*) AS BooksCount
-FROM Books_En
-GROUP BY Topic
-ORDER BY BooksCount DESC
+--SELECT TOP(1) Topic, COUNT(*) AS BooksCount
+--FROM Books_En
+--GROUP BY Topic
+--ORDER BY BooksCount DESC
 
 
 
